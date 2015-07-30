@@ -1,10 +1,10 @@
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+(a fork of Airbnb's Javascript Style Guide)
 
-# Airbnb JavaScript Style Guide() {
+# Strikingly ES6 JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
-[For the ES5-only guide click here](es5/).
+[For Strikingly CofffeeScript guide click here](coffeescript-style-guide/).
 
 ## Table of Contents
 
