@@ -1555,11 +1555,14 @@ foo();
 [1,2,3].forEach(bar);
 ```
 
-```javascript
 you could do this:
+
+```javascript
 foo()
 ;[1,2,3].forEach(bar)
 ```
+
+The advantage is that the prefixes are easier to notice, once you are accustomed to never seeing lines starting with ( or [ without semis.
 
 Read more [here](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding).
 
