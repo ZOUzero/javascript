@@ -4,7 +4,7 @@
 
 *A mostly reasonable approach to JavaScript*
 
-[For Strikingly CofffeeScript guide click here](/strikingly/coffeescript-style-guide/).
+[For Strikingly CofffeeScript guide click here](https://github.com/strikingly/coffeescript-style-guide).
 
 ## Table of Contents
 
