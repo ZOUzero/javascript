@@ -4,7 +4,7 @@
 
 *A mostly reasonable approach to JavaScript*
 
-[For Strikingly CofffeeScript guide click here](coffeescript-style-guide/).
+[For Strikingly CofffeeScript guide click here](/strikingly/coffeescript-style-guide/).
 
 ## Table of Contents
 
@@ -1547,6 +1547,19 @@ As once described by Isaac Schlueter, a \n character always ends a statement (ju
 1. The line is -- or ++ (in which case it will decrement/increment the next token.)
 1. It is a for(), while(), do, if(), or else, and there is no {
 1. The next line starts with [, (, +, *, /, -, ,, ., or some other binary operator that can only be found between two tokens in a single expression.
+
+The forth rule is probably the real gotchas, for those cases, use the below approach:
+
+```javascript
+foo();
+[1,2,3].forEach(bar);
+```
+
+```javascript
+you could do this:
+foo()
+;[1,2,3].forEach(bar)
+```
 
 Read more [here](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding).
 
