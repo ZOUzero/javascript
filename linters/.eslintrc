@@ -191,14 +191,14 @@
     "react/wrap-multilines": 2,      // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
     "react/sort-comp": [2, {         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
       "order": [
-        'lifecycle',
+        "lifecycle",
         "/^on.+$/",
         "/^get.+$/",
         "everything-else",
-        'rendering'
+        "rendering"
       ],
-      groups: {
-        lifecycle: [
+      "groups": {
+        "lifecycle": [
           "displayName",
           "propTypes",
           "contextTypes",
@@ -220,7 +220,7 @@
           "componentDidUpdate",
           "componentWillUnmount"
         ],
-        rendering: [
+        "rendering": [
           "/^render.+$/",
           "render"
         ]
